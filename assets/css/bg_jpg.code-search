@@ -1,0 +1,14 @@
+# Query: bg.jpg
+# ContextLines: 1
+
+2 results - 2 files
+
+assets/css/main.css:
+  87  		background-attachment: fixed,						fixed;
+  88: 		background-image: url("images/overlay.png"), url("../../images/IMG_5211.jpeg");
+  89  		background-position: top left,					center center;
+
+assets/sass/main.scss:
+  119  		background-attachment:	fixed,						fixed;
+  120: 		background-image:		url('images/overlay.png'),	url('../../images/bg.jpg');
+  121  		background-position:	top left,					center center;

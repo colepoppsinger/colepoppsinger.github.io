@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+
 	<body class="is-preload">
 
 		<!-- Wrapper-->
@@ -19,31 +20,46 @@
 
 				<!-- Nav -->
 					<nav id="nav">
-						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#Home" class="icon solid fa-home"> <span>Home</span></a>
+						<a href="#AboutMe" class="icon solid fa-binoculars"><span>About Me</span></a>
 						<a href="#Portfolio" class="icon solid fa-folder"><span>Portfolio</span></a>
 						<a href="#Resume" class=" icon solid fa-file"><span>Resume</span></a>
-						<a href="https://medium.com/@colepopp" target="_blank" class="icon brands fa-medium"><span>Medium</span></a>
+						<!-- <a href="#Contact" class="icon solid fa-envelope"><span>Contact</span></a> -->
+
+						<!-- <a href="https://medium.com/@colepopp" target="_blank" class="icon brands fa-medium"><span>Medium</span></a>
 						<a href="https://www.linkedin.com/in/cole-poppsinger/" target="_blank" class="icon brands fa-linkedin"><span>Linkedin</span></a>
 						<a href="https://github.com/colepoppsinger" target="_blank" class="icon brands fa-github-square"><span>Github</span></a>
-						<!-- tableau placeholder when there's a button <a href="https://public.tableau.com/app/profile/cole.poppsinger" target="_blank" class="icon brands fa-github-square"><span>Tableau</span></a> -->
-						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+						tableau placeholder when there's a button <a href="https://public.tableau.com/app/profile/cole.poppsinger" target="_blank" class="icon brands fa-github-square"><span>Tableau</span></a> -->
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Me -->
-							<article id="home" class="panel intro">
+						<!-- Home -->
+							<article id="Home" class="panel intro">
 								<header>
 									<h1>COLE POPPSINGER</h1>
 									<p>DATA SCIENTIST | DAD | ADVENTURER</p>
 								</header>
-								<a href="#Portfolio" class="jumplink pic">
+								<a href="#AboutMe" class="jumplink pic">
 									<!-- disable arrow jump button <span class="arrow icon solid fa-chevron-right"><span>See my Portfolio</span></span> -->
 									<img src="images/me.jpg" alt="" />
 								</a>
 							</article>
-
+						<!-- About Me -->
+							<article id="AboutMe" class="panel">
+								<header>
+									<h2>About Me</h2>
+								</header>
+								<p>
+									I am a data scientist with twenty years of customer-facing leadership experience.
+									I have trained in high-intensity environments and I am focused on reducing barriers and creating sustainable solutions while building dynamic teams. 
+									Organization, analysis, and continuous improvement are my happy-place.
+								</p>
+								<p>
+									When I'm not playing with data, I can usually be found hiking mountains and combing beaches with my kiddos. 
+								</p>
+							</article>
 						<!-- Portfolio -->
 							<article id="Portfolio" class="panel">
 								<header>
@@ -54,48 +70,43 @@
 								</p>
 								<section>
 									<div class="row">
+
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
+											<a href="https://github.com/colepoppsinger/bechdel_movie_recommender" target="_blank" class="image fit"><img src="images/film.jpg" alt=""></a>
+											<h3>Movie Recommender System</h3>
+											<p>Created a user-based collaborative movie recommender system that considers Bechdel scores in filtering recommendations. 
+												<a href="https://share.streamlit.io/colepoppsinger/streamlit/app.py" target="_blank" >An app</a> was also built.</p>
+
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
+											<a href="https://github.com/colepoppsinger/APIs_NLP_in_subreddits" target="_blank" class="image fit"><img src="images/coffeebeer.jpeg" alt=""></a>
+											<h3>NLP and Web APIs</h3>
+
+											<p>Through the application of natural language processing and sentiment analysis, 
+												a classification model was developed that can extract valuable insight from user posts on social media. 
+												Reddit was scraped for posts from r/craftbeer and r/espresso subreddits.</p>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
+											<a href="https://github.com/colepoppsinger/ames_kaggle" target="_blank" class="image fit"><img src="images/house.jpg" alt=""></a>
+											<h3>Linear Regression to Predict Housing Prices</h3>
+											<p>Developed multiple linear regression models to determine the greatest predictors of housing prices in Ames, Iowa.
+												A dataset from 
+												<a href="https://www.kaggle.com/competitions/dsir-0124-project-2-regression-challenge/leaderboard" target="blank"> Kaggle </a> 
+											was used for this project.</p>
 										</div>
+										
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
+											<a href="https://medium.com/@colepopp/dada-to-data-3566fb38caa5" target="_blank" class="image fit"><img src="images/blog.jpg" alt=""></a>
+											<h3>Blog Post on Medium</h3>
+											<p>Wrote a blog post about my career change to data science</p>
 										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
-										</div>
+
+
 									</div>
 								</section>
 							</article>
 
 						<!-- Resume -->	
-
 						<article id="Resume" class="panel">
 							<header>
 								<h2>Resume</h2>
@@ -103,63 +114,41 @@
 							<p>
 							</p>
 							<section>
-								<div class="row">
+								<div class="image">
 									<div class="col-2 col-6-medium col-12-large">
-										<a href="#" class="image fit"><img src="images/Resume.png" alt=""></a>
+										<a href="Resume.pdf" target="_blank" class="image fit"><img src="images/Resume.png" alt=""></a>
 									</div>
-								
-									<div class="col-4 col-6-medium col-12-small">
-										<a href="#" class="image fit"><img src="" alt=""></a>
-									</div>
-									
-									<div class="col-4 col-6-medium col-12-small">
-										<a href="#" class="image fit"><img src="" alt=""></a>
-									</div>
-									<div class="col-4 col-6-medium col-12-small">
-										<a href="#" class="image fit"><img src="" alt=""></a>
-									</div>
-									<div class="col-4 col-6-medium col-12-small">
-										<a href="#" class="image fit"><img src="" alt=""></a>
-									</div>
+							
 								</div>
 							</section>
 						</article>
+						
+					</div>
+				
+
+
 						<!-- Contact -->
-							<article id="contact" class="panel">
-								<header>
-									<h2>Contact Me</h2>
-								</header>
-								<form action="#" method="post">
-									<div>
-										<div class="row">
-											<div class="col-6 col-12-medium">
-												<input type="text" name="name" placeholder="Name" />
-											</div>
-											<div class="col-6 col-12-medium">
-												<input type="text" name="email" placeholder="Email" />
-											</div>
-											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="6"></textarea>
-											</div>
-											<div class="col-12">
-												<input type="submit" value="Send Message" />
-											</div>
-										</div>
-									</div>
-								</form>
+						<nav id="nav">
+							<article id="Contact">
+								
+							<p></p>
+							
+							<a href="mailto:colepopp@gmail.com" target="blank" class="icon solid fa-envelope"><span>Contact</span></a>
+							<!-- <li><a href="tel:206.913.8833">Phone: 206.913.8833</a></li> -->
+							<!-- <a href="https://medium.com/@colepopp" target="_blank" class="icon brands fa-medium"><span>Medium</span></a> -->
+							<a href="https://www.linkedin.com/in/cole-poppsinger/" target="_blank" class="icon brands fa-linkedin"><span>Linkedin</span></a>
+							<a href="https://github.com/colepoppsinger" target="_blank" class="icon brands fa-github-square"><span>Github</span></a>
+							<!-- <a href="https://public.tableau.com/app/profile/cole.poppsinger" target="_blank" class="icon brands fa-github-square"><span>Tableau</span></a> -->
 							</article>
-
-					</div>
-
-				<!-- Footer -->
-					<div id="footer">
-						<ul class="copyright">
-							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</div>
+						</nav>
+										
+	
+			<!-- Footer -->
+				<div id="footer">
+					<ul class="copyright">
+						<li>&copy; 2022 Cole Poppsinger </li> <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
 
 			</div>
 

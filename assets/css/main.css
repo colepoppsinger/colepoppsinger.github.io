@@ -1309,7 +1309,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("images/bg.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
-		background-attachment: fixed;
+		background-attachment: scroll;
 		overflow-y: scroll;
 	}
 
@@ -1784,7 +1784,7 @@ input, select, textarea {
 			line-height: 0.9em;
 			font-size: 2.5em;
 			margin: 0 0.25em 0 0.25em;
-			opacity: 0.35;
+			opacity: 1;
 			outline: 0;
 			-moz-transition: opacity .25s ease-in-out;
 			-webkit-transition: opacity .25s ease-in-out;
